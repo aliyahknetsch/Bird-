@@ -3,9 +3,9 @@
     margin: 0;
 }
 #game{
-    width: 400px;
+    width: 500px;
     height: 500px;
-    border: 1px solid black;
+    border: 5px solid black;
     margin: auto;
     overflow: hidden;
 }
@@ -33,7 +33,7 @@
 #character {
     width: 20px;
     height: 20px;
-    background-color: rgb(108, 159, 255);
+    background-color: rgb(52, 105, 204);
     position: absolute;
     top: 100px;
     border-radius: 50%;
