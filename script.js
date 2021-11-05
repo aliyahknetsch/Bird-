@@ -5,6 +5,7 @@ var jumping = 0;
 var counter = 0;
 var characterTop = 50
 var y_vel = 1
+document.addEventListener("click", jump)
 
 hole.addEventListener('animationiteration', () => {   
     var random = Math.random()*3;
@@ -15,7 +16,7 @@ hole.addEventListener('animationiteration', () => {
 setInterval(function(){
     var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
     if(jumping==0 ) {
-        y_vel += 0.06
+        y_vel += 0.04
         characterTop += y_vel
         character.style.top = (characterTop) + "px";
     }
