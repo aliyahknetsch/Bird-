@@ -15,7 +15,7 @@ hole.addEventListener('animationiteration', () => {
 setInterval(function(){
     var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
     if(jumping==0 ) {
-        y_vel += 0.05
+        y_vel += 0.06
         characterTop += y_vel
         character.style.top = (characterTop) + "px";
     }
