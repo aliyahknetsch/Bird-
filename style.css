@@ -31,9 +31,8 @@
     animation: block 3s infinite linear;
 }
 #character {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(52, 105, 204);
+    width: 50px;
+    height: 50px;
     position: absolute;
     top: 100px;
     border-radius: 50%;
